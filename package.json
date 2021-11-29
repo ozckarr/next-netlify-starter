@@ -8,9 +8,22 @@
     "export": "next export"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^1.1.1",
+    "@chakra-ui/react": "^1.7.2",
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@sanity/client": "^2.21.0",
+    "axios": "^0.24.0",
+    "framer-motion": "^4.1.17",
     "next": "^12.0.1",
+    "next-auth": "^3.29.0",
+    "next-auth-sanity": "^1.3.0",
+    "next-sanity": "^0.4.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.17.4",
+    "react-scroll": "^1.8.4",
+    "sass": "^1.42.1"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.0.0-beta.4"

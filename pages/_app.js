@@ -1,7 +1,14 @@
-import '@styles/globals.css'
+import "../styles/globals.scss";
 
-function Application({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <nav className="header"></nav>
+      <main>
+        <Component {...pageProps} />
+      </main>
+    </>
+  );
 }
 
-export default Application
+export default MyApp;
