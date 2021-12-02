@@ -7,6 +7,8 @@ import ContactSection from "../components/sections/contactSection";
 
 import Nav from "../components/nav";
 
+import { NextSeo } from "next-seo";
+
 import { sanityClient } from "../lib/sanity";
 
 const logoQuery = `*[_type == "siteSettings"]{
@@ -58,6 +60,11 @@ export default function Home({
 }) {
   return (
     <div>
+      <NextSeo
+        title="TS Spa och Fritid"
+        description="Vi kan Spa...och fritid"
+        canonical={process.env.NEXT_PUBLIC_URL}
+      />
       <Head>
         <title>TS Spa och Fritid</title>
         <meta name="description" content="TS Spa och Fritid" />
