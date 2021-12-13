@@ -236,6 +236,10 @@
       .startSection-content {
         padding: 5em 3em 7em;
         height: fit-content;
+        .startSection-logo-container,
+        .text {
+          text-align: center;
+        }
       }
     }
   }
@@ -251,9 +255,11 @@
     flex-direction: column;
     .header {
       width: 100% !important;
+      text-align: center;
     }
     .text {
       width: 100% !important;
+      text-align: center;
     }
   }
   .section-content-mirrored {
