@@ -119,6 +119,12 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      .startSection-logo-container {
+        .startSection-logo {
+          width: calc(100% - 0.5em);
+          max-width: 10em;
+        }
+      }
     }
   }
 }

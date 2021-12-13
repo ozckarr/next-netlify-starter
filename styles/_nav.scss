@@ -61,6 +61,7 @@ nav {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         width: 12em;
+        transition: opacity 0.5s ease-in-out;
       }
     }
     .nav-menu {

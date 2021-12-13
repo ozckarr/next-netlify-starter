@@ -115,7 +115,11 @@ export default function Home({
 
       {logoData ? <Nav data={logoData} /> : <p>load</p>}
 
-      {startData ? <StartSection data={startData[0]} /> : <p>load</p>}
+      {startData ? (
+        <StartSection data={startData[0]} logoData={logoData} />
+      ) : (
+        <p>load</p>
+      )}
       {spaOchBadData ? (
         <SpaOchBadSection data={spaOchBadData[0]} />
       ) : (

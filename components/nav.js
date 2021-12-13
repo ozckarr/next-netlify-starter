@@ -75,6 +75,9 @@ export default function Nav({ data }) {
                 src={urlFor(data[0].logo).url()}
                 alt="logo"
                 onClick={() => scroll.scrollToTop(100)}
+                style={{
+                  opacity: scrollPosition >= screenHeight / 2 ? "1" : "0",
+                }}
               />
             </div>
           )}
